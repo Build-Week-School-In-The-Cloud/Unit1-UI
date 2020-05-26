@@ -1,3 +1,33 @@
-html {
-  background-color: red;
+body .hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .hero-container video {
+  position: relative;
+  width: 100%;
+}
+body .hero-container h1 {
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-size: 300px;
+  font-weight: bold;
+  display: flex;
+}
+body .graphics {
+  display: flex;
+  height: 75vh;
+  background-color: #1B1B1B;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+body .graphics .graphics-info {
+  margin-top: 5%;
+  border-radius: 1%;
+  background-color: #ffc048;
+  width: 28%;
+  height: 30%;
 }
