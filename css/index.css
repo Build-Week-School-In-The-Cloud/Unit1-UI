@@ -31,3 +31,50 @@ body .graphics .graphics-info {
   width: 28%;
   height: 30%;
 }
+body .graphics .graphics-info p {
+  color: white;
+  font-size: 5rem;
+}
+body .graphics .graphics-info img {
+  width: 50%;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 40vh;
+  background-color: grey;
+}
+.hero h1 {
+  margin-top: 10%;
+  font-size: 15em;
+  font-family: 'Open Sans', sans-serif;
+}
+.staff-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.staff-cards .card {
+  width: 30%;
+}
+.staff-cards .card h5 {
+  font-size: 5rem;
+}
+.staff-cards .card p {
+  font-size: 3rem;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  background-color: #1B1B1B;
+}
+.nav-bar a {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 3%;
+  text-decoration: none;
+  color: white;
+  font-size: 100px;
+  margin-bottom: 0;
+}
