@@ -1,13 +1,14 @@
 @import "homePage.less";
 @import "aboutus.less";
-
+@bg:  #1B1B1B;
+@font: 'Open Sans', sans-serif;
 .nav-bar {
     display: flex;
     justify-content: center;
-    height: 20%;
-    background-color: #1B1B1B;
+
+    background-color: @bg;
   a {
-      font-family: 'Open Sans', sans-serif;
+      font-family: @font;
       margin-right: 3%;
       text-decoration: none;
       color: white;
@@ -20,18 +21,6 @@
   }
 }
 
-  footer {
-      bottom: 0px;
-    height: 5vh;
-    background-color: #1B1B1B;
-      h3 {
-        font-family: 'Open Sans', sans-serif;
-          display: flex;
-          justify-content: center;
-          font-size: 3rem;
-          color: white;
-      }
-  }
 
   
 
@@ -43,9 +32,9 @@
     display: flex;
     justify-content: center;
     height: 20%;
-    background-color: #1B1B1B;
+    background-color: @bg;
   a {
-      font-family: 'Open Sans', sans-serif;
+      font-family: @font;
       margin-right: 3%;
       text-decoration: none;
       color: white;
@@ -61,9 +50,7 @@
 
   .hero-container {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   .nav-bar();
   
      video {
       position: relative;
@@ -71,7 +58,7 @@
       }
     h1 {
       
-      font-family: 'Open Sans', sans-serif;
+      font-family: @font;
       z-index: 1;
       position: absolute;
       color: white;
@@ -114,8 +101,7 @@
 
 
 .hero {
-  display: flex;
-  justify-content: center;
+  .nav-bar();
   margin-top: 0;
   height: 40vh;
   background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), Black);
@@ -144,6 +130,7 @@
           font-size: 10px;
       }
   }
+
 }
 
 
